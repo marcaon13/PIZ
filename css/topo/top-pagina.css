@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #header-1 {
+
+} */
+
+/* .body-edition {
+    max-width: 1200px;
+    margin: auto;
+    background-size: 100%;
+    background-size: contain;
+} */
+
+#pagina_principal {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lado-outro-1 {
+    display: flex;
+}
+
+.logo-pagina-1 {
+    width: 150px;
+}
+
+.lista-style-1 li{
+    list-style-type: none;
+    list-style: none;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 45px;
+}
+
+.list1 li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* login */
+.container-login {
+    display: flex;
+    position: relative;
+    top: 45px;
+}
+
+.container-login input[value="Criar conta"] {
+    margin: 0px 20px 0px 0px;
+}
+
+.container-login input[value="Criar conta"] {
+    background-color: F7F7F7;
+    color: red;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.container-login input[value="Entrar"] {
+    background-color: red;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* header-2 */
+
+.header-2-text h2 {
+    color: #424242;
+}
+
+.header-2-text {
+ text-align: center;
+ font-size: 30px;
+ position: relative;
+ bottom: 350px;
+}
+
+.input-email-1 {
+    position: relative;
+    bottom: 370px;
+    text-align: center;
+}
+
+.input-email-1 input[type="button"] {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-email-1 input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.input-email-1 input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    background-color: gray;
+    opacity: 0.2;
+    border: none;
+}
+
+.input-email-1 input[type="email"]::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}  
+
